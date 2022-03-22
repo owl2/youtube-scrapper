@@ -1,6 +1,4 @@
-from utils import get_view_count, get_like_count, get_video_id, get_http_proxy
-import requests
-
+from src.utils import get_view_count, get_like_count, get_video_id
 
 url = 'https://www.youtube.com/watch?v=kFRdoYfZYUY'
 view_count = get_view_count(url)
